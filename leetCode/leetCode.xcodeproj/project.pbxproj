@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E6B22FC026AE965D00B384A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B22FBF26AE965D00B384A5 /* main.m */; };
+		E6B22FCA26AE9C6A00B384A5 /* LeetCodeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B22FC926AE9C6A00B384A5 /* LeetCodeSolver.m */; };
+		E6B22FCE26AE9FBB00B384A5 /* LeetCodeSolver1.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B22FCD26AE9FBB00B384A5 /* LeetCodeSolver1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		E6B22FBC26AE965D00B384A5 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B22FBF26AE965D00B384A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B22FC826AE9C6A00B384A5 /* LeetCodeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeSolver.h; sourceTree = "<group>"; };
+		E6B22FC926AE9C6A00B384A5 /* LeetCodeSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeSolver.m; sourceTree = "<group>"; };
+		E6B22FCC26AE9FBB00B384A5 /* LeetCodeSolver1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeSolver1.h; sourceTree = "<group>"; };
+		E6B22FCD26AE9FBB00B384A5 /* LeetCodeSolver1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeSolver1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				E6B22FBF26AE965D00B384A5 /* main.m */,
+				E6B22FC826AE9C6A00B384A5 /* LeetCodeSolver.h */,
+				E6B22FC926AE9C6A00B384A5 /* LeetCodeSolver.m */,
+				E6B22FCC26AE9FBB00B384A5 /* LeetCodeSolver1.h */,
+				E6B22FCD26AE9FBB00B384A5 /* LeetCodeSolver1.m */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B22FC026AE965D00B384A5 /* main.m in Sources */,
+				E6B22FCE26AE9FBB00B384A5 /* LeetCodeSolver1.m in Sources */,
+				E6B22FCA26AE9C6A00B384A5 /* LeetCodeSolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

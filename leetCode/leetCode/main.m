@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LeetCodeSolver.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        LeetCodeSolver *solver = [[LeetCodeSolver alloc] init];
+        [solver solutionWithNum:1];
     }
     return 0;
 }
