@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         LeetCodeSolver *solver = [[LeetCodeSolver alloc] init];
-        [solver solutionWithNum:1];
+        [solver solutionWithNum:3];
     }
     return 0;
 }

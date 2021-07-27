@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62B760C26AFF33C00A763B1 /* LeetCodeSolver3.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B760B26AFF33C00A763B1 /* LeetCodeSolver3.m */; };
 		E6B22FC026AE965D00B384A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B22FBF26AE965D00B384A5 /* main.m */; };
 		E6B22FCA26AE9C6A00B384A5 /* LeetCodeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B22FC926AE9C6A00B384A5 /* LeetCodeSolver.m */; };
 		E6B22FCE26AE9FBB00B384A5 /* LeetCodeSolver1.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B22FCD26AE9FBB00B384A5 /* LeetCodeSolver1.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E62B760A26AFF33C00A763B1 /* LeetCodeSolver3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeSolver3.h; sourceTree = "<group>"; };
+		E62B760B26AFF33C00A763B1 /* LeetCodeSolver3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeSolver3.m; sourceTree = "<group>"; };
 		E6B22FBC26AE965D00B384A5 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B22FBF26AE965D00B384A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6B22FC826AE9C6A00B384A5 /* LeetCodeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeSolver.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				E6B22FC926AE9C6A00B384A5 /* LeetCodeSolver.m */,
 				E6B22FCC26AE9FBB00B384A5 /* LeetCodeSolver1.h */,
 				E6B22FCD26AE9FBB00B384A5 /* LeetCodeSolver1.m */,
+				E62B760A26AFF33C00A763B1 /* LeetCodeSolver3.h */,
+				E62B760B26AFF33C00A763B1 /* LeetCodeSolver3.m */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 				TargetAttributes = {
 					E6B22FBB26AE965D00B384A5 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -131,6 +137,7 @@
 				E6B22FC026AE965D00B384A5 /* main.m in Sources */,
 				E6B22FCE26AE9FBB00B384A5 /* LeetCodeSolver1.m in Sources */,
 				E6B22FCA26AE9C6A00B384A5 /* LeetCodeSolver.m in Sources */,
+				E62B760C26AFF33C00A763B1 /* LeetCodeSolver3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,20 +258,37 @@
 		E6B22FC426AE965D00B384A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JGU5SNYK4;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "leetCode/leetCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		E6B22FC526AE965D00B384A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JGU5SNYK4;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "leetCode/leetCode-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
